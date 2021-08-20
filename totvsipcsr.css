@@ -1,0 +1,92 @@
+body {
+    background-color: #0097A7;
+    font-family: Ubuntu;
+    color: #EEEEEE;
+    padding-top: 100px;
+}
+
+.titleInitial {
+    font-size: 120px;
+}
+
+.ti {
+    display: none;
+}
+
+.ti:hover {
+    color: #6E6E6E;
+}
+
+.ti8:hover {
+    color: #FFBD2E;
+}
+
+.ti8 {
+    margin-left: 300px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: #0097A7;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #74B1B8;
+    border-radius: 5px;
+}
+
+.bodyPage {
+    height: 500px;
+    border-left: 4px solid #6E6E6E;
+    margin-left: 204px;
+    display: none;
+}
+
+.initialPoint {
+    height: 18px;
+    width: 18px;
+    position: fixed;
+    background-color: #74B1B8;
+    border-radius: 50%;
+    left: 205px;
+    top: 393px;
+    display: none;
+}
+
+.socialButtons {
+    padding-left: 10px;
+    padding-top: 25px;
+    height: 195px;
+    width: 60px;
+    position: absolute;
+    background-color: #00B3C6;
+    border-radius: 10px;
+    right: 25px;
+    top: 250px;
+    color: #fff;
+    display: none;
+}
+
+.socialButtons svg path {
+    fill: #dddddd;
+    transition: fill .3s ease;
+}
+
+.socialButtons svg {
+    margin-bottom: 10px;
+}
+
+.socialButtons svg path:hover {
+    fill: #6E6E6E;
+    transition: fill .3s ease;
+}
